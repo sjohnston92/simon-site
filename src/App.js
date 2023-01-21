@@ -9,6 +9,7 @@ import Footer from './templates/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Notfound from './pages/Notfound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={Home()}></Route>
         <Route exact path="/about" element={About()}></Route>
         <Route exact path="/contact" element={Contact()}></Route>
+        <Route path='*' element={Notfound()}/>
       </Routes>
       <Footer/>
     </>
