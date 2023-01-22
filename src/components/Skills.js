@@ -16,6 +16,8 @@ import SqlLogo from '../assets/skill-images/my-sql.png';
 import PostLogo from '../assets/skill-images/postgresql.png';
 import WordpressLogo from '../assets/skill-images/wordpress.png';
 import AdobeLogo from '../assets/skill-images/adobe.png';
+//Skill Background
+import Backer from '../assets/webskillback.png'
 
 const Skills = () => {
 
@@ -38,7 +40,7 @@ const Skills = () => {
   ];
 
   return (
-  <div style={{ height: "500px" }}>
+  <SkillContainer style={{height: "500px" }}>
   <Marquee velocity={50} minScale={0.7} resetAfterTries={200} scatterRandomly>
     {times(12, Number).map((id) => (
       <Motion
@@ -54,9 +56,20 @@ const Skills = () => {
       </Motion>
     ))}
   </Marquee>
-</div>
+</SkillContainer>
   )
 }
+
+const SkillContainer = styled.div`
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: url(${Backer}) no-repeat center;
+  background-size: contain;
+  border-radius: 20px 20px 20px 20px;
+  padding-top:5%;
+  padding-bottom:5%;
+`
 
 const Circle = styled.div`
   position: absolute;
