@@ -6,6 +6,7 @@ import JobLogos from '../components/JobLogos'
 import Skills from '../components/Skills'
 import ContactForm from '../components/ContactForm'
 import Bio from '../components/Bio'
+import Portfolio from '../components/Portfolio'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Bio/>
       <JobLogos/>
       <Skills/>
+      <Portfolio/>
       <ContactForm />
     </>
   )

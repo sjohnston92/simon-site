@@ -25,7 +25,7 @@ export const Bio = () => {
         </BioPicContainer>
         <BioTextContainer>
           <BioText>
-          <BioHead>Overview</BioHead>
+          <BioHead>About Me</BioHead>
           Skysail spike cog killick fire ship mizzen tack bring a spring upon her cable capstan strike colors. Trysail tackle topgallant parrel black spot wherry bounty doubloon piracy interloper. Rum Brethren of the Coast salmagundi grapple clap of thunder weigh anchor avast take a caulk pillage lanyard.
           </BioText>
         </BioTextContainer>

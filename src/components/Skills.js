@@ -68,7 +68,6 @@ const SkillContainer = styled.div`
   background-size: contain;
   border-radius: 20px 20px 20px 20px;
   padding-top:5%;
-  padding-bottom:5%;
 `
 
 const Circle = styled.div`
