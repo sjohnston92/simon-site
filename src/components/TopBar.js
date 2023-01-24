@@ -2,11 +2,9 @@ import styled from 'styled-components'
 
 const TopBar = () => {
   return (
-    <div style={{background:'#ffffff'}}>
       <BannerTop>
         Hey my name is Simon, welcome to my site!
       </BannerTop>
-    </div>
   )
 }
 

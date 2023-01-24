@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components'
 import Lottie from 'react-lottie';
 import { TypeAnimation } from 'react-type-animation';
-import animationData from '../assets/contactbox.json'
 
 const ContactForm = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -35,7 +34,6 @@ const ContactForm = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
     }
@@ -43,7 +41,7 @@ const ContactForm = () => {
 
   
   return (
-    <ContactContainer style={{position: 'relative'}}>
+    <ContactContainer>
       <ContactText> Contact Me</ContactText>
       {formSubmitted ? (
         <ContactSubmitText>
@@ -94,14 +92,10 @@ const ContactForm = () => {
   )
 }
 const ContactContainer = styled.div`
-  margin-top: 10px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin:5px;
   background:#000000;
   text-align: center;
-  padding: 10px;
-  height: 300px;
-  border-radius: 20px 20px 20px 20px;
+  height: 600px;
 `
 const ContactText= styled.div`
   color:#00FF23;
@@ -151,6 +145,7 @@ const ContactSubmit= styled.button`
   padding: 10px;
   margin:10px;
   border: 1px solid #00FF23;
+  text-align:center;
 `
 
 

@@ -10,14 +10,11 @@ const Marquee = () => {
 }
 
 const MainContainer = styled.div`
-  margin-top: 10px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin:5px;
   background:black;
   text-align: center;
   padding: 10px;
   height: 500px;
-  border-radius: 20px 20px 20px 20px;
 `
 
 const MainText= styled.div`

@@ -38,7 +38,7 @@ const NavigationMenu = styled.div`
   margin-left:5%;
   margin-right:5%;
   padding-top:15px;
-  padding-bottom:10px;
+  padding-top:15px;
 `
 const NavigationButton = styled.button`
   text-decoration: none;
