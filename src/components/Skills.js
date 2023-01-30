@@ -62,8 +62,6 @@ const Skills = () => {
 
 const SkillContainer = styled.div`
   margin-top: 10px;
-  margin-right: 5%;
-  margin-left: 5%;
   background: url(${Backer}) no-repeat center;
   background-size: contain;
   border-radius: 20px 20px 20px 20px;

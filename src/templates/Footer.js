@@ -17,16 +17,6 @@ const Footer = () => {
   };
   return (
     <BannerBottom>
-      <BottomContainer>
-      <IconContainer>
-        <div>
-          <BsGithub size={70} />
-        </div>
-        <div>
-          <BsLinkedin size={70}/>
-        </div>
-      </IconContainer>
-      </BottomContainer>
       <WhiteLine></WhiteLine>
       Simon's Portfolio Site - Updated {date}
     </BannerBottom>
